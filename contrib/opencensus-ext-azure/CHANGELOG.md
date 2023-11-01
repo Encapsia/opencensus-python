@@ -2,12 +2,30 @@
 
 ## Unreleased
 
+## 1.1.11
+
+Released 2023-10-12
+
+- Add str fallback to envelope serialization
+([#1196](https://github.com/census-instrumentation/opencensus-python/pull/1196))
+- Remove outerId from exceptiondata
+([#1221](https://github.com/census-instrumentation/opencensus-python/pull/1221))
+
+## 1.1.10
+
+Released 2023-09-18
+
+- Add str fallback to envelope serialization
+([#1196](https://github.com/census-instrumentation/opencensus-python/pull/1196))
+
+## 1.1.9
+
+Released 2023-03-10
+
 - Fix export of exception information in traces
 ([#1187](https://github.com/census-instrumentation/opencensus-python/pull/1187))
 - Modify metrics exporter to include setting export interval to 60s
 ([#1193](https://github.com/census-instrumentation/opencensus-python/pull/1193))
-- Add str fallback to envelope serialization
-([#1196](https://github.com/census-instrumentation/opencensus-python/pull/1196))
 
 ## 1.1.8
 
